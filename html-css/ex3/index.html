@@ -5,8 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhando com imagens </title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;700&display=swap');
+        html{
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        img{
+            max-width:18rem;
+
+        }
+        
+
+    </style>
 </head>
 <body>
-    
+    <main>
+        <section>
+            <h1> Trabalhando carga de imagens </h1>
+    <hr>
+    <p>ex1: </p>
+    <p>&lt;img src="logo-html.png" alt="Logo CSS"&gt;</p>
+    <ul>
+        <li> tag img não possui fechamento: &lt;img &gt; </li>
+        <li> atributo src="": (Serve para colocar o caminho do arquivo) </li>
+        <li> atributo alt="": serve para colocar descrição da imagem (OBS: caso o navegador não encontre a imagem ir aparecer o conteúdo do alt. )</li>
+    </ul>
+
+    <p> Abaixo você irá ver uma imagem que está dentro da mesma pasta, note que só precisamos utilizar o nome do arquivo seguido da estensão "natureza-html.jpg"  </p>
+    <img src="logo-html.png" alt="Logo CSS">
+    <p> Podemos carregar imagens que estão dentro de uma pasta com o código abaixo.</p>
+    <p>
+        &lt;img src="fotos/logo-css.png" alt="Logo CSS"&gt; 
+    </p>
+    <img src="fotos/logo-css.png" alt="Logo CSS">
+    <p>
+        Também podemos carregar fotos externas, e para isso devemos ter sua url completa como no exemplo abaixo.
+    </p>
+    <p>
+        &lt;img src="https://www.casamidia.com.br/wp-content/uploads/2016/03/js-logo.png" alt="logo javascript"&gt;
+    </p>
+    <img src="https://www.casamidia.com.br/wp-content/uploads/2016/03/js-logo.png" alt="logo javascript">
+        </section>
+        <p>
+           <a href="../ex2/index.html">Página Anterior</a> | <a href="../ex4/index.html">Próxima Página</a>.
+        </p>
+    </main>
 </body>
 </html>
